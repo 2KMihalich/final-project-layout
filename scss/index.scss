@@ -11,12 +11,3 @@
 @import "./modules/products.scss";
 @import "./modules/share.scss";
 @import "./modules/tips.scss";
-
-h1 {
-  font-family: "Gilroy", sans-serif;
-  color: $primaryColor;
-  font-size: 1.5rem;
-  @include respondTo(768px) {
-    font-size: 5rem;
-  }
-}

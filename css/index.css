@@ -317,8 +317,13 @@ html {
   font-size: 10px;
 }
 
-.container {
+.wrapper {
   max-width: 1270px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -345,16 +350,6 @@ html {
   src: url("Gilroy-SemiBold.woff2") format("woff2"), url("Gilroy-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
-}
-h1 {
-  font-family: "Gilroy", sans-serif;
-  color: #e89f71;
-  font-size: 1.5rem;
-}
-@media (min-width: 768px) {
-  h1 {
-    font-size: 5rem;
-  }
 }
 
 /*# sourceMappingURL=index.css.map */
